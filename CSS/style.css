@@ -1,38 +1,26 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
     .bg-clocor {
         background-color: aqua;
-    }
-    
-    #cabecalho {
-        background-color: gold;
-    }
-    
-    #javascript {
-        background-color: grey;
-    }
-    
-    #html {
-        background-color: gold;
-    }
-    
-    #css {
-        background-color: grey;
-    }
-    
-    #rodape {
-        background-color: gold;
     }
     
     body>header {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
+        background-color: #0048a5;
     }
     
     body>header nav ul {
         display: flex;
         list-style: none;
-        flex-direction: column;
-        gap: 5px;
+        flex-direction: row;
+        gap: 10px;
     }
     
     body>header nav ul li a {
@@ -46,4 +34,9 @@
         border-radius: 5px;
         text-decoration: none;
         font-size: 25px;
+        transition: background-color 0.3s ease-in-out;
+    }
+    
+    body>header nav ul li a:hover {
+        background-color: #6f2f2f
     }

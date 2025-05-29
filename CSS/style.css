@@ -5,9 +5,10 @@
             font-family: 'Roboto', sans-serif;
         }
         
-        .bg-clocor {
-            background-color: aqua;
+        html{
+            font-size: 62.5%
         }
+
         
         body>header {
             display: flex;
@@ -44,7 +45,7 @@
             color: #fff;
             border-radius: 5px;
             text-decoration: none;
-            font-size: 30px;
+            font-size: 3.5rem;
             transition: background-color 0.3s ease-in-out;
         }
         

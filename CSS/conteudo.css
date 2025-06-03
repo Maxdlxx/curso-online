@@ -1,8 +1,9 @@
 main {
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     gap: 5px;
+    background-color: #fcc15e;
 }
 
 main section {
@@ -12,8 +13,13 @@ main section {
     width: 100%;
     margin: 2%;
     padding: 2%;
-    border: 2px solid rgba(17, 148, 148, 0.751);
+    border: 2px solid #004aad;
     border-radius: 5px;
+
+    background-image: url("../img/fundo-card-transp.png");
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
 }
 
 main section h2{

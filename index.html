@@ -23,6 +23,22 @@
         </nav>
     </header>
     <main>
+        <button onclick="abrirModal()">Abrir Modal</button>
+        <dialog id="meuModal">
+            <p>Esta é uma janela MODAL!</p>
+            <button onclick="fecharModal()">Fechar Modal</button>
+        </dialog>
+        <script>
+  const modal = document.getElementById("meuModal");
+ 
+  function abrirModal() {
+    modal.showModal(); // ou .show() para sem bloqueio de fundo
+  }
+ 
+  function fecharModal() {
+    modal.close();
+  }
+</script>
         <section id="javascript ">
             <header>
                 <h2>JAVA SCRIPT</h2>

@@ -1,0 +1,16 @@
+#meuModal{
+    margin: 15% auto;
+    width: 55%;
+    height: 50vh;
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid #1e1e1e;
+    font-size: 2.5rem;
+    text-align: justify;
+    line-height: 3rem;
+};
+
+#meuModal::backdrop{
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px)
+};

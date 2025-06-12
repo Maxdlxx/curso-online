@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/conteudo.css" />
     <link rel="stylesheet" href="css/rodape.css" />
+    <link rel="stylesheet" href="./css/modal.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -20,6 +21,7 @@
   </head>
 
   <body>
+
     <header id="cabecalho">
       <img src="./img/Img-01-logo.png" alt="logo com ramos e folhas." />
       <nav>
@@ -30,12 +32,11 @@
         </ul>
       </nav>
     </header>
+
     <main> 
-      <button id="btnAbrir">Abrir Modal</button>
-     
       <dialog id="meuModal">
-        <p>Esta é uma janela MODAL!</p>
-        <button onclick="fecharModal()">Fechar Modal</button>
+        <span>X</span>
+
       </dialog>
       <section id="javascript ">
         <header>
@@ -44,7 +45,7 @@
         <p>
           Aprenda tudo sobre JavaScript(ES6+), lógica de prog., orientação a
           objetos, crie projetos para web com Node.js e Express
-          <a href="#"onclick="abrirModal()">mais...</a>
+          <a href="#" id="linkJs">mais...</a>
         </p>
       </section>
       <section id="html">
@@ -56,7 +57,7 @@
           utilizada para criar e estruturar páginas da web. Ela define a
           disposição de elementos como textos, imagens e links, permitindo que
           os navegadores interpretem e exibam o conteúdo.
-          <a href="#">mais...</a>
+          <a href="#" id="linkHtml">mais...</a>
         </p>
       </section>
       <section id="css">
@@ -69,10 +70,11 @@
           conteúdo (HTML) da sua representação visual (CSS). A relação entre
           HTML e CSS é intrínseca, pois o HTML é a base de um site e o CSS
           representa a sua parte estética.
-          <a href="#">mais...</a>
+          <a href="#" id="linkCss">mais...</a>
         </p>
       </section>
     </main>
+
     <footer>
       <nav>
         <ul>

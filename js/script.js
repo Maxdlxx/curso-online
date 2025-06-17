@@ -25,6 +25,7 @@ let boxInner = document.getElementById("box");
 linkHtml.addEventListener("click", function(){
 boxModal.showModal();
 let boxInner = document.getElementById("box");
+ boxInner.innerHTML = "";
  boxInner.innerHTML += "<div><p>HTML Criada pelo britânico Tim Berners-Lee, o acrônimo HTML significa HiperText Markup Language, traduzindo ao português: Linguagem de Marcação de Hipertexto. O HTML é o componente básico da web, ele permite inserir o conteúdo e estabelecer a estrutura básica de um website.</p></div>"
 });
 
@@ -33,6 +34,7 @@ let boxInner = document.getElementById("box");
 linkCss.addEventListener("click" , function(){
 boxModal.showModal();
 let boxInner = document.getElementById("box");
+ boxInner.innerHTML = "";
  boxInner.innerHTML += "<div><p>O CSS foi desenvolvido pelo W3C em 1996 por um motivo bastante simples: a linguagem HTML não foi projetada para ter tags que ajudassem a formatar a página — o objetivo era apenas escrever a marcação para o conteúdo da web</p></div>"
 
 });
